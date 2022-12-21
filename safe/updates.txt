@@ -1,0 +1,2 @@
+# Version 1
+Created safe version of the virus (50 files with 100 characters each one, including 50 characters in file name)
